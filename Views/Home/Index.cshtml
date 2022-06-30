@@ -1,31 +1,109 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿@model Cashpoint.Models.Cashpoint
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!DOCTYPE html>
+<html>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+<head>
+    <script src="/Scripts/jquery-3.4.1.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Банкомат</title>
+</head>
+    <body>
+
+        <div class="jumbotron">
+            <div class="row" onchange="updateTapes();">
+                <h2 for="Count">Количество кассет</h2>
+                <input type="range" id="Count" name="Count" min="1" max="8" value="@Model.TapeCount">
+            </div>
+            <h2>Настройка номиналов</h2>
+            <div id="nominals" class="row">
+                <div style="display:inline-block">
+                    @Html.Partial("Tape", Model.TapeNominals.FirstOrDefault())
+                </div>
+            </div>
+            <h2>Настройка кассет</h2>
+            <div id="nominalsCount" class="row">
+                <div style="display:inline-block">
+                    @Html.Partial("TapeCount", Model.NominalsCount.FirstOrDefault())
+                </div>
+            </div>
+            <h2>Статусы кассет</h2>
+            <div id="statuses" class="row">
+                <div style="display:inline-block">
+                    @Html.Partial("TapeStatus", Model.TapeStatuses.FirstOrDefault())
+                </div>
+            </div>
+
+            <div style="margin-top:100px">
+                <div class="row">
+                    <input type="number" id="Cash" name="Cash"
+                           value="0">
+                </div>
+                <button style="margin-top:10px" type="button" id="Tick" onclick="checkGive(this);">
+                    Выдать деньги
+                </button>
+            </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    var info = { status: 0 };
+    var html = $("#nominals")[0].innerHTML;
+    var html2 = $("#nominalsCount")[0].innerHTML;
+    var html3 = $("#statuses")[0].innerHTML;
+    var model = {
+        TapeCount: 5,
+        TapeNominals: [100],
+        NominalsCount: [10],
+        cash: 100
+    };
+    function updateTapes() {
+        $("#nominals")[0].innerHTML = "";
+        $("#nominalsCount")[0].innerHTML = "";
+        $("#statuses")[0].innerHTML = "";
+        var number = $("#Count")[0].valueAsNumber;
+        for (let i = 0; i < number; i++) {
+            $("#nominals")[0].innerHTML += html;
+            $("#nominalsCount")[0].innerHTML += html2;
+            $("#statuses")[0].innerHTML += html3;
+        }
+    }
+    function updateModel() {
+        model.TapeNominals = [];
+        model.NominalsCount = [];
+        model.TapeCount = $("#Count")[0].valueAsNumber;
+        var k = 0;
+        var count = model.TapeCount;
+        for (let i = 0; i < model.TapeCount; i++) {
+            if ($('[id=Status]')[k].checked === false) {
+                model.TapeCount--;
+                k++;
+                i--;
+                continue;
+            }
+            if (k > count) {
+                break;
+            }
+            model.TapeNominals[i] = $('[id=NominalValue]')[k].valueAsNumber;
+            model.NominalsCount[i] = $('[id=NominalCount]')[k].valueAsNumber;
+            k++;
+        }
+        model.cash = $("#Cash")[0].valueAsNumber;
+    }
+    function checkGive(element) {
+        updateModel();
+        var ajaxTime = Date.now();
+        $.ajax({
+            type: "POST",
+            url: "https://localhost:44368/Home/IsCashGiveable",
+            data: JSON.stringify(model),
+            dataType: "html",
+            contentType: "application/json",
+            success: function (resultData) {
+                var totalTime = Date.now() - ajaxTime;
+                element.innerHTML = resultData + totalTime + " миллисекунд";
+                $("#Tick").css({ 'color': 'red' });
+            }
+        });
+    }
+</script>

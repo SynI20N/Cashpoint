@@ -1,0 +1,28 @@
+﻿@model List<List<int>>
+
+<div>
+
+    @{
+        bool canGive = false;
+        foreach (var i in Model)
+        {
+            if (i.ElementAt(0) * i.ElementAt(1) != 0)
+            {
+                canGive = true;
+            }
+        }
+        if (!canGive)
+        {
+            @Html.Label("Нельзя выдать!");
+            <br>
+        }
+        else
+        {
+            foreach (var i in Model)
+            {
+                @Html.Label(i.ElementAt(0).ToString() + " по " + i.ElementAt(1).ToString());
+                <br>
+            }
+        }
+    }
+</div>
