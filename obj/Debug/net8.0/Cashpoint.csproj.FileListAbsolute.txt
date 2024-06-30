@@ -26,3 +26,4 @@
 /home/leonid/Projects/Cashpoint/obj/Debug/net8.0/Cashpoint.pdb
 /home/leonid/Projects/Cashpoint/obj/Debug/net8.0/Cashpoint.genruntimeconfig.cache
 /home/leonid/Projects/Cashpoint/obj/Debug/net8.0/ref/Cashpoint.dll
+/home/leonid/Projects/Cashpoint/obj/Debug/net8.0/Cashpoint.sourcelink.json

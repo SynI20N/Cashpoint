@@ -8,7 +8,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/leonid/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "/home/leonid/Projects/Cashpoint/Cashpoint.csproj",
       "projectName": "Cashpoint",
       "projectPath": "/home/leonid/Projects/Cashpoint/Cashpoint.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/leonid/.nuget/packages/",
       "outputPath": "/home/leonid/Projects/Cashpoint/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/leonid/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/leonid/.dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
