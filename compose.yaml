@@ -1,0 +1,6 @@
+services:
+  cashpoint:
+    build: .
+    image: cashpoint
+    ports:
+      - "5282:5282"
