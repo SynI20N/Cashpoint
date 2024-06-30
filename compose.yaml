@@ -3,4 +3,4 @@ services:
     build: .
     image: cashpoint
     ports:
-      - "5282:5282"
+      - "5282:8080"
