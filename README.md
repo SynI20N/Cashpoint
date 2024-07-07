@@ -9,6 +9,6 @@
   <img src="https://github.com/SynI20N/Cashpoint/blob/main/img/2.png" height="600" width="600"> <br>
   <img src="https://github.com/SynI20N/Cashpoint/blob/main/img/3.png" height="600" width="600"> <br>
   <img src="https://github.com/SynI20N/Cashpoint/blob/main/img/4.png" height="600" width="600"> <br>
-  Notorious case with prime numbers: <br>
+  Tough case with prime numbers: <br>
   <img src="https://github.com/SynI20N/Cashpoint/blob/main/img/5.png" height="600" width="600">
 </p>
