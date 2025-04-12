@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Cashpoint\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\run_artillery.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:run_artillery.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\dockerfile_test||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:dockerfile_test||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\test-config.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:test-config.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|c:\\projects\\cashpoint\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9D677DC8-9DC8-4D40-B95D-B1C342A79B60}|Cashpoint.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Projects\\Cashpoint\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-12T11:35:31.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "run_artillery.ps1",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\run_artillery.ps1",
+              "RelativeDocumentMoniker": "run_artillery.ps1",
+              "ToolTip": "C:\\Projects\\Cashpoint\\run_artillery.ps1",
+              "RelativeToolTip": "run_artillery.ps1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMxSURBVDhPjZRLTCRVFIa/avoxgkgz0IMzJsKE\u002BCCKKxcad5q4UJJJCAmrWbrRqCtmwexMXJkY4sbExJ26YDGOo3FlRqNxSMtjIjp0Ad3Nq2mgi35V1\u002B0q6nGvC\u002Bim6Tgz/MmfWzl17lfnnKq6GsDS0pLkMXIcpzYzM/PB7OzsLaDefh8ApRQAuq7Lx2lna0v\u002BeOdOdnx8/Ho0Gu1pZzUUalwopR7pi/39XOzrG5qampoeGxu7FgqFus6iWqTrugyC4JEWQsj5\u002BXlp27ZMJpPrExMT14HOdlazwvPIMAzm5uYwTXN4cnLyc2AIiLbnoeu69H3/XLYsS\u002BZyObm8vCyBd4HeVta5Z9hwLBZjYGCAkZERTlruaAVqALqeksPDw61x6nWbA\u002BOQUMdxvgKUAoU6WWH65s3vUGR8z6v9fveXb6qV8r4GkEqdBUop2dzOYdQEXT1xAqUwHR9N04iEQ/hKEShFIJVCaRi723L6/fde386mF1peimpaSsnuQQHZe4li9yU2OxN8v\u002BvhdcX5Iu1w2\u002BrkttPNrdoT2oJ7QStbdem6ruJhM5RSUjAFBRkmY0s2RIATi/FS/5O89UwPf24YrBbrbJTqGJUa\u002Bfx\u002B0ffcozZgi4GKDLNjSzKWx5rl8k/F5euVAm9f7SUe7UAvmKQNE7Nco7i/lwo8t3oG2NqyWbMoEWFNSP41XeYyBmNDcV673M1n97Ks71cplyxsyybkCKyS8Zfv\u002B4ctwLOfxmpmg5zXwbwVsFA\u002BwrMEbz7dyd10gXeeS/DpG4MkQhLfdvBtS6b11E5dCLutwlOt5fYo1hUJo8Ar5gFXIpJPfl1lIVfmy2SWb\u002B9vcfUCvNobxTMrjlk6FEEQABCmOb/jkwfAdz1ujETof\u002Br4V9U0Ddd1MWsm5WqVvkSCByvrvPziC/zwW\u002Bngni3yjb3hJqVFVUtwf30TCWiy8SCF67qUiyWuXDZJZ3NUXYJ8fnfVO3L0xl4NYGVlRQ4OPtsEJv9\u002BgEIBGlqz8tMOUAo0jY8\u002B/PgrR1g/7eW2fhZCSBrA0dHRa9Fo9Hng4Wfc/2hxcfEPYBGoNGLaydoFxIHIafq5JE5gXiPwH3deaPvRgailAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-04-11T18:57:27.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "test-config.yml",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\test-config.yml",
+              "RelativeDocumentMoniker": "test-config.yml",
+              "ToolTip": "C:\\Projects\\Cashpoint\\test-config.yml",
+              "RelativeToolTip": "test-config.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-11T18:57:28.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile_test",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\Dockerfile_test",
+              "RelativeDocumentMoniker": "Dockerfile_test",
+              "ToolTip": "C:\\Projects\\Cashpoint\\Dockerfile_test",
+              "RelativeToolTip": "Dockerfile_test",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-11T18:33:16.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projects\\Cashpoint\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-11T17:23:49.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\Cashpoint\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:17:30.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Projects\\Cashpoint\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-11T17:17:27.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "compose.yaml",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\compose.yaml",
+              "RelativeDocumentMoniker": "compose.yaml",
+              "ToolTip": "C:\\Projects\\Cashpoint\\compose.yaml",
+              "RelativeToolTip": "compose.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-11T17:17:27.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\Cashpoint\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Projects\\Cashpoint\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-11T17:17:19.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
