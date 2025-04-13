@@ -19,6 +19,6 @@
 <p>Tough case with prime numbers:</p>
 <table>
   <tr>
-    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/5.png" height="300" width="300"></td>
+    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/5.png" height="400" width="400"></td>
   </tr>
 </table>
