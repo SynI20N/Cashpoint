@@ -7,12 +7,12 @@
 <p>How different choices affect algorithm:</p>
 <table>
   <tr>
-    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/1.png" height="300" width="300"></td>
-    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/2.png" height="300" width="300"></td>
+    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/1.png" height="400" width="400"></td>
+    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/2.png" height="400" width="400"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/3.png" height="300" width="300"></td>
-    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/4.png" height="300" width="300"></td>
+    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/3.png" height="400" width="400"></td>
+    <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/4.png" height="400" width="400"></td>
   </tr>
 </table>
 
