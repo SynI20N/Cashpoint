@@ -1,4 +1,4 @@
-<h1>Cashpoint imitation using dynamic programming algorithm</h1>
+```<h1>Cashpoint imitation using dynamic programming algorithm</h1>
 <h2>Prerequisites: ASP.NET Core 8.0</h2>
 <p>Compile:<code>dotnet build</code></p>
 <p>Run:<code>dotnet run</code></p>
@@ -84,9 +84,7 @@ public class Program
 
 4. **Простота реализации и интеграции**
 
-#### Рекомендации по использованию
-
-**Настройка параметров:**
+#### Рекомендации по настройке параметров
    - `BucketSize` должен соответствовать ожидаемой нагрузке
    - `ProcessingRate` определяет допустимую скорость запросов
    - `Timeout` влияет на точность ограничения
