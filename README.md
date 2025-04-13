@@ -1,4 +1,4 @@
-```<h1>Cashpoint imitation using dynamic programming algorithm</h1>
+<h1>Cashpoint imitation using dynamic programming algorithm</h1>
 <h2>Prerequisites: ASP.NET Core 8.0</h2>
 <p>Compile:<code>dotnet build</code></p>
 <p>Run:<code>dotnet run</code></p>
