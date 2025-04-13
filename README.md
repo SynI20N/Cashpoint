@@ -1,10 +1,10 @@
-<h1>Cashpoint imitation using dynamic programming algorithm</h1>
-<h2>Prerequisites: ASP.NET Core 8.0</h2>
-<p>Compile:<code>dotnet build</code></p>
-<p>Run:<code>dotnet run</code></p>
-<p>Run with docker: <code>sudo docker compose up -d</code></p>
+<h1>Имитация Банковского автомата</h1>
+<h2>Предварительные требования: ASP.NET Core 8.0</h2>
+<p>Компиляция: <code>dotnet build</code></p>
+<p>Запуск: <code>dotnet run</code></p>
+<p>Запуск с Docker: <code>sudo docker compose up -d</code></p>
 
-<p>How different choices affect algorithm:</p>
+<p>Как различные выборы влияют на алгоритм:</p>
 <table>
   <tr>
     <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/1.png" height="400" width="400"></td>
@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-<p>Tough case with prime numbers:</p>
+<p>Трудный случай с простыми числами:</p>
 <table>
   <tr>
     <td><img src="https://github.com/SynI20N/Cashpoint/blob/main/img/5.png" height="400" width="400"></td>
@@ -106,7 +106,23 @@ public class Program
    - `ProcessingRate` определяет допустимую скорость запросов
    - `Timeout` влияет на точность ограничения
 </p>
-<h2>Load testing</h2>
-<p>Artillery-image container is built from Dockerfile_test</p>
-<p>This container runs artillery to load test on Cashpoint specific port</p>
-<p>The result.json contains info from this load-testing</p>
+
+#### Нагрузочное тестирование
+
+<p>Контейнер <strong>Artillery-image</strong> создается на основе <code>Dockerfile_test</code>.</p>
+<p>Этот контейнер запускает инструмент <strong>Artillery</strong> для выполнения нагрузочного тестирования на определенном порту, предназначенном для Cashpoint.</p>
+<p>В файле <code>test-config.yml</code> находятся параметры запуска</p>
+<p>Файл <code>result.json</code> содержит результаты нагрузочного тестирования, включая информацию о производительности, количестве запросов, времени отклика и других метриках, которые помогают оценить устойчивость и эффективность системы при высокой нагрузке.</p>
+```yml
+config:
+  target: 'http://host.docker.internal:5282' # локальный адрес
+  phases:
+    - duration: 60  # 1 минута
+      arrivalRate: 2000  # 3 VUs with 1000 requests per VU
+      maxVirtualUsers: 3  # Limit the number of VUs to 3
+
+scenarios:
+  - flow:
+      - get:
+          url: "/"
+```
