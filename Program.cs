@@ -1,8 +1,18 @@
+using RateLimitingMiddleware;
+
 public class Program
 {
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+
+        // Configure rate limiting params
+        builder.Services.Configure<LeakyBucketOptions>(options =>
+        {
+            options.BucketSize = 100;
+            options.ProcessingRate = 1;
+            options.Timeout = 1000;
+        });
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
@@ -19,10 +29,10 @@ public class Program
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
-
         app.UseRouting();
-
         app.UseAuthorization();
+
+        app.UseLeakyBucket();
 
         app.MapControllerRoute(
             name: "default",
