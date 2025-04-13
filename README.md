@@ -25,8 +25,10 @@
 <h2>DDOS attack protection</h2>
 <p>Leaky bucket is used to protect from DDOS as a middleware</p>
 <p>For the following reasons:
-  <tr>Easy to implement</tr>
-  <tr>Faster than other algorithms</tr>
+  <ul>
+  <li>Easy to implement</li>
+  <li>Faster than other algorithms</li>
+  </ul>
 </p>
 <h2>Load testing</h2>
 <p>Artillery-image container is built from Dockerfile_test</p>
